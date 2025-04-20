@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/Weather_Website/images/icons/main_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <title>SkyCast</title>
+  <link rel="stylesheet" href="weather.css">
+</head>
+
+
+<body>
+  <div class="main-page">
+    <div class="first-half">
+      <div class="weather-info">
+        <div class="temperature">
+          0 C
+        </div>
+        <div class="city-weather">
+          <p class="city-name">City Name</p>
+          <p class="weather">Cloudy</p>
+        </div>
+        <div class="weather-icon">
+          <img src="/Weather_Website/images/icons/cloudy.png" id="weather-icon">
+        </div>
+      </div>
+    </div>
+
+    <div class="second-half">
+      <div class="weather-details-container">
+        <div class="weather-name" id="weather-name">
+          Cloudy
+        </div>
+        <div class="tag-line" id="tag-line">
+          "Soft skies and chill vibes. Maybe a good book?"
+        </div>
+        <div class="weather-details">
+          <p class="details" id="temp">Temperature :</p>
+          <p class="details" id="sunrise">Sunrise (IST) :</p>
+          <p class="details" id="sunset">Sunset (IST) :</p>
+          <p class="details" id="air-quality">Atmospheric Pressure :</p>
+          <p class="details" id="humidity">Humidity :</p>
+          <p class="details" id="wind">Wind :</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="weather.js"></script>
+
+</body>
+</html>

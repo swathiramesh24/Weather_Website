@@ -1,0 +1,92 @@
+body{
+  background-image: url("/Weather_Website/images/backgrounds/main.png");
+  image-rendering: pixelated;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  background: linear-gradient(180deg, rgba(224, 234, 252, 0.48) 0%, rgba(207, 222, 243, 0.70) 100%);
+  box-shadow: 20px 20px 12px 12px rgba(0, 0, 0, 0.39);
+  width: 946px;
+  height: 509px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.heading{
+  font-family: "Winky Rough" ,sans-serif;
+  color: #120387;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 89px;
+  text-align: center;
+}
+
+.search-bar{
+  margin-top:50px ;
+  padding: 15px 90px 15px 20px;
+  font-size: 16px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+.search-input{
+  margin-top:50px ;
+  padding: 15px 90px 15px 20px;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-input input{
+  color: black;;
+}
+
+.search-button{
+  padding: 15px 12px 15px 12px;
+  font-size: 16px;
+  background-color: #4134a6;
+  color: white;
+  border: none;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.search-button:hover{
+  background-color: rgb(107, 110, 194);
+  color: white;
+}
+
+.about{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.about-me{
+  padding: 10px 20px 10px 20px;
+  background-color: #120387;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
